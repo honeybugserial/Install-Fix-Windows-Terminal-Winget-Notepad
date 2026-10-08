@@ -20,10 +20,10 @@
     Do not ask for confirmation (the reboot prompt is still asked).
 
 .EXAMPLE
-    powershell -ExecutionPolicy Bypass -File .\Restore-Essentials.ps1
+    powershell -ExecutionPolicy Bypass -File .\Restore-WinThings.ps1
 
 .EXAMPLE
-    powershell -ExecutionPolicy Bypass -File .\Restore-Essentials.ps1 -CheckOnly
+    powershell -ExecutionPolicy Bypass -File .\Restore-WinThings.ps1 -CheckOnly
 #>
 [CmdletBinding()]
 param(
